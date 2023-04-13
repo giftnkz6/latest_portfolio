@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <div class="circle"></div>
     <div class="circle1"></div>
 
     <h1>HELLO I'M GIFT THE CREATOR</h1>
@@ -11,6 +12,7 @@
       
     </div>
 
+    <div class="circle3"></div>
     <div class="circle2"></div>
 
     <button class="btn btn-info">Contact me</button>
@@ -34,15 +36,27 @@ export default {
   margin: auto;
   margin-top: 1rem;
 }
-.circle1{
-  width: 100px;
-  height: 100px;
+.circle{
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   background-color: #D9D9D9;
-  mask-position: absolute;
+  /* background-color: #85CDFD; */
+  position: absolute;
   opacity: 50%;
-  margin-top: 1rem;
-  margin-left: 2rem;
+  margin-left: 8rem;
+  margin-bottom: 1rem;
+}
+.circle1{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  /* background-color: #85CDFD; */
+  position: absolute;
+  opacity: 50%;
+  margin-top: 4rem;
+  margin-left: 11rem;
 }
 
 button{
@@ -50,17 +64,28 @@ button{
   height: 4rem;
   /* background-color: #85CDFD; */
   color: #DEFCF9;
-  /* border-radius: 6%; */
+  margin-top: 10rem;
   font-size: larger;
 }
 .circle2{
-  width: 100px;
-  height: 100px;
-  margin-top: 1rem;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   background-color: #D9D9D9;
+  position: absolute;
   opacity: 50%;
-  margin-left: 70rem;
+  margin-top: 6rem;
+  margin-left: 65rem;
+}
+.circle3{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  position: absolute;
+  opacity: 50%;
+  margin-left: 68rem;
+  margin-bottom: 3rem;
 }
 .home{
   min-height: 100vh;
@@ -72,6 +97,7 @@ h2{
 h1{
   color: #DEFCF9;
   font-size: 4rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
 }
 </style>
