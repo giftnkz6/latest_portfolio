@@ -47,7 +47,7 @@
                 },
                 {
                     name: "Given Mahlangu - Peer",
-                    message: "Gift is a determined and disciplined person, who is always focused on the task at hand.He gives 100% in everything he does and is always to willing to assist his peers.His hard work and great communication skills makes him stand out.",
+                    message: "Gift is a determined and disciplined person, who is always focused on the task at hand.He gives 100% in everything he does and he is always willing to assist his peers.His hard work and great communication skills makes him stand out.",
                     image: "https://i.postimg.cc/kMWk3z7t/Given.jpg" 
                 }
             ]
