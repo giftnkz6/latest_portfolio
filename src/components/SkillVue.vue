@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>MY SKILLS</h1>
+        <h1 id="skill">MY SKILLS</h1>
         <div class="skills">
             <div>
                 <i class="fa-brands fa-html5"></i>
@@ -59,5 +59,19 @@ h1{
 }
 i{
     font-size: 10rem;   
+}
+
+@media screen and (max-width: 900px){
+    .skills{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+}
+
+@media screen and (max-width: 600px){
+    .skills{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 }
 </style>

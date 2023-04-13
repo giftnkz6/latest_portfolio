@@ -1,5 +1,5 @@
 <template>
-    <h1>MY PROJECTS</h1>
+    <h1 id="project">MY PROJECTS</h1>
     <div class="container">
       <div id="carouselExampleControls" class="carousel slide" data-interval="false">
         <div class="carousel-inner">
@@ -8,8 +8,8 @@
                 <img :src="project.image" class="d-block w-100" alt="..." loading="lazy">
                 <div class="card-body">
                     <h5 class="card-title">{{ project.description }}</h5>
-                    <a :href="project.github" class="btn btn-primary" target="_blank">Github</a><br><br>
-                    <a :href="project.netlify" class="btn btn-primary" target="_blank">Netlify</a>
+                    <a :href="project.github" class="btn" target="_blank">Github</a><br><br>
+                    <a :href="project.netlify" class="btn" target="_blank">Netlify</a>
                 </div>
             </div>
           </div>
@@ -18,8 +18,8 @@
                 <img :src="project.image" class="d-block w-100" alt="..." loading="lazy">
                 <div class="card-body">
                     <h5 class="card-title">{{ project.description }}</h5>
-                    <a :href="project.github" class="btn btn-primary" target="_blank">Github</a><br><br>
-                    <a :href="project.netlify" class="btn btn-primary" target="_blank">Netlify</a>
+                    <a :href="project.github" class="btn" target="_blank">Github</a><br><br>
+                    <a :href="project.netlify" class="btn" target="_blank">Netlify</a>
                 </div>
             </div>
           </div>
@@ -98,6 +98,14 @@ export default {
         object-position: top;
         width: 5rem;
     }
+
+    a{
+        background-color:#3C84AB;
+    }
+
+    a:hover{
+        background-color:#3C84AB;
+    }
     .container{
         /* display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -116,15 +124,13 @@ export default {
         /* box-shadow: 0 0 25px purple; */
         background-color: #85CDFD
     }
-    button{
-        background-color:#3C84AB;
-    }
+   
     /* Carousel */
     .carousel-control-next-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
     }
 
     .carousel-control-prev-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
     }
 </style>
