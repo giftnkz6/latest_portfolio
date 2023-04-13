@@ -6,46 +6,49 @@
                 <div class="col-md-12">
                     <div class="container">
                         <div class="resume-timeline">
-                            <a href="" class="info">
-
-                                <h3 class="year">2018-2021</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus
-                                    lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum
-                                    neque commodo
-                                </p>
-                            </a>
-                        </div>
-                        <div class="resume-timeline">
                             <div class="info">
 
-                                <h3 class="year">2013-2017</h3>
+                                <h3 class="year">2023-Present</h3>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus
-                                    lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum
-                                    neque commodo
+                                    Intern Web Developer intern at LC Studio based in Kenwyn, Cape Town. Focussed on upskilling and working in teams to achieve the same goals.
+                                    It is a work simulated environment teaching soft and technical skills.
                                 </p>
                             </div>
                         </div>
                         <div class="resume-timeline">
                             <div class="info">
 
-                                <h3 class="year">2009-2012</h3>
+                                <h3 class="year">2022-2023</h3>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus
-                                    lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum
-                                    neque commodo
+                                    
                                 </p>
                             </div>
                         </div>
                         <div class="resume-timeline">
                             <div class="info">
 
-                                <h3 class="year">2006-2009</h3>
+                                <h3 class="year">2022</h3>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus
-                                    lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum
-                                    neque commodo
+                                    On 16 April 2022 I got a Responsive Web Design certificate from FreeCodeCamp Which covers HTML, CSS, Web design and Responsive Web design.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="resume-timeline">
+                            <div class="info">
+
+                                <h3 class="year">2017-2020</h3>
+                                <p class="description">
+                                    In 2017 I was enrolled for a Bsc in Computer Sciences at University Of Pretoria. I partially completed the degree due to some unforseen circurmstances and financial challenges.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="resume-timeline">
+                            <div class="info">
+
+                                <h3 class="year">2013-2015</h3>
+                                <p class="description">
+                                    In 2015 I obtained my matric certificate at Kwandebele Science Combined School. I achieved a bachelors pass, with Pure Mathematics and Sciences beign one of the passed subjects.
                                 </p>
                             </div>
                         </div>
@@ -93,10 +96,6 @@ h1 {
     position: relative;
 }
 
-a {
-    text-decoration: none;
-}
-
 .container .resume-timeline:before,
 .container .resume-timeline:after {
     content: '';
@@ -118,6 +117,9 @@ a {
     right: 0;
 }
 
+.year{
+    color: #DEFCF9;
+}
 .container .info {
     color: #555;
     /* background: #70d6ff; */
@@ -150,6 +152,7 @@ a {
     text-transform: uppercase;
     margin: 0 0 8px;
 }
+
 
 .container .description {
     color: #777;
