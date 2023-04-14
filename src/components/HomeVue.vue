@@ -15,7 +15,7 @@
       <div class="circle3"></div>
       <div class="circle2"></div>
   
-      <button class="btn btn-info">Contact me</button>
+      <button class="btn btn-info">Download CV</button>
     </div>
   </template>
   
@@ -44,7 +44,7 @@
     /* background-color: #85CDFD; */
     position: absolute;
     opacity: 50%;
-    margin-left: 8rem;
+    margin-left: 9rem;
     margin-bottom: 1rem;
   }
   .circle1{
