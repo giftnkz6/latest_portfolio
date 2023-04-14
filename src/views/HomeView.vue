@@ -6,6 +6,7 @@
     <SkillVue/>
     <ProjectVue/>
     <TestimonialVue/>
+    <ContactVue/>
 
   </div>
 </template>
@@ -18,6 +19,7 @@ import ResumeVue from '@/components/ResumeVue.vue';
 import SkillVue from '@/components/SkillVue.vue';
 import ProjectVue from '@/components/ProjectVue.vue';
 import TestimonialVue from '@/components/TestimonialVue.vue';
+import ContactVue from '@/components/ContactVue.vue'
 
 export default {
   name: 'HomeView',
@@ -27,7 +29,8 @@ export default {
     ResumeVue,
     SkillVue,
     ProjectVue,
-    TestimonialVue
+    TestimonialVue,
+    ContactVue
   }
 }
 </script>

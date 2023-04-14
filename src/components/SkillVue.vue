@@ -49,13 +49,15 @@
     }
 </script>
 
-<style>
+<style scoped>
 .skills{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 h1{
     color: #85CDFD;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 i{
     font-size: 10rem;   

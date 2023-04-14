@@ -4,7 +4,7 @@
       <div id="carouselExampleControls" class="carousel slide" data-interval="false">
         <div class="carousel-inner">
           <div class="carousel-item active" v-for="project in firstProject" key="project">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img :src="project.image" class="d-block w-100" alt="..." loading="lazy">
                 <div class="card-body">
                     <h5 class="card-title">{{ project.description }}</h5>
@@ -101,6 +101,7 @@ export default {
 
     a{
         background-color:#3C84AB;
+        color: white;
     }
 
     a:hover{
@@ -113,6 +114,10 @@ export default {
         margin: auto;
     }
 
+    h1{
+        margin-top: 3rem;
+    }
+
     h3 {
     color: #85CDFD;
 }
@@ -122,7 +127,7 @@ export default {
         margin-bottom: 5rem;
         gap: 1rem;
         /* box-shadow: 0 0 25px purple; */
-        background-color: #85CDFD
+        background-color: #85CDFD;
     }
    
     /* Carousel */
@@ -132,5 +137,21 @@ export default {
 
     .carousel-control-prev-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='skyblue' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .card{
+        width: 18rem;
+    }
+
+    @media screen and (max-width: 400px) {
+        .card{
+            width: 15rem;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        .card{
+            width: 13rem;
+        }
     }
 </style>

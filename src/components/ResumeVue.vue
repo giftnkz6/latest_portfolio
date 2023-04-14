@@ -20,7 +20,8 @@
 
                                 <h3 class="year">2022-2023</h3>
                                 <p class="description">
-                                    
+                                    I completed a 6 months full stack web development bootcamp at Life Choices Coding Academy. I finished in the top 4 excellent achievers in my class with an average of 88%.
+                                    I learned HTML, CSS, JAVASCRIPT, BOOTSTRAP, VUEJS, NODEJS, MYSQL and midfullness.
                                 </p>
                             </div>
                         </div>
@@ -74,10 +75,6 @@ h1 {
     color: #85CDFD;
     margin-bottom: 2rem;
 }
-
-/* body {
-    margin-top: 100px !important;
-} */
 
 .container {
     font-family: 'Poppins', sans-serif;
@@ -155,8 +152,8 @@ h1 {
 
 
 .container .description {
-    color: #777;
-    font-size: 13px;
+    color: white;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.5px;
     line-height: 18px;
@@ -179,36 +176,6 @@ h1 {
     left: 0;
 }
 
-/* .container .resume-timeline:nth-child(even) .info {
-    border-radius: 15px 15px 15px 0;
-}
-
-.container .resume-timeline:nth-child(4n+2):before,
-.container .resume-timeline:nth-child(4n+2):after {
-    border-color: #ff70a6;
-}
-
-.container .resume-timeline:nth-child(4n+2) .info {
-    background: #ff70a6;
-}
-
-.container .resume-timeline:nth-child(4n+3):before,
-.container .resume-timeline:nth-child(4n+3):after {
-    border-color: #ff9770;
-} */
-
-/* .container .resume-timeline:nth-child(4n+3) .info {
-    background: #ff9770;
-}
-
-.container .resume-timeline:nth-child(4n+4):before,
-.container .resume-timeline:nth-child(4n+4):after {
-    border-color: #ffd670;
-}
-
-.container .resume-timeline:nth-child(4n+4) .info {
-    background: #ffd670;
-} */
 
 @media screen and (max-width:767px) {
     .container .resume-timeline {
@@ -233,10 +200,5 @@ h1 {
         right: auto;
         left: 0;
     }
-
-    /* .container .info,
-    .container .resume-timeline:nth-child(even) .info {
-        border-radius: 0 15px 15px 15px;
-    } */
 }
 </style>
