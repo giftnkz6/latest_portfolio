@@ -15,7 +15,7 @@
       <div class="circle3"></div>
       <div class="circle2"></div>
   
-      <button class="btn btn-info">Download CV</button>
+      <a href="https://drive.google.com/file/d/1b0hZV4QNK56Wkjzi_cpWFbGi1FNKW7HC/view?usp=sharing" target="_blank"><button class="btn btn-info">Download CV</button></a>
     </div>
   </template>
   

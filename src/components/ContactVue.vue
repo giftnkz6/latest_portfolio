@@ -12,15 +12,15 @@
         <form action="https://formspree.io/f/mrgdkjgy" method="POST">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" required placeholder="Name">
+                <input name="name" type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Name">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" required placeholder="name@example.com">
+                <input name="email" type="email" class="form-control" id="exampleFormControlInput1" required placeholder="name@example.com">
             </div>
             <div>
                 <label for="exampleFormControlTextarea1" class="form-label">Write Me a Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required placeholder="Leave a Message"></textarea>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" required placeholder="Leave a Message"></textarea>
             </div>
             <div>
                 <button type="submit" class="btn">Submit</button>
