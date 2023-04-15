@@ -12,10 +12,10 @@
             <img src="https://i.postimg.cc/bN5Rz0T8/GIFT-removebg-preview.png" alt="Gift Profile">
             <div class="text">
                 <h3>PERSONAL DETAILS</h3>
-                <p>FULL NAME: Gift Mahlangu</p>
-                <p>DATE OF BIRTH: 1997-03-11</p>
-                <p>GENDER: MALE</p>
-                <p>ADDRESS: Kenwyn, Cape Town</p>
+                <p>Full Name : Gift Mahlangu</p>
+                <p>Date Of Birth : 1997-03-11</p>
+                <p>Gender : Male</p>
+                <p>Address : Kenwyn, Cape Town</p>
             </div>
         </div>
     </div>
