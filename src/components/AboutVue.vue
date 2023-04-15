@@ -46,6 +46,7 @@ ul {
 h1 {
     color: #85CDFD;
     margin-top: 6rem;
+    margin-bottom: 2rem;
 }
 
 h3 {

@@ -14,7 +14,7 @@
             </div>
           </div>
           <div class="carousel-item" v-for="project in projects" key="project">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img :src="project.image" class="d-block w-100" alt="..." loading="lazy">
                 <div class="card-body">
                     <h5 class="card-title">{{ project.description }}</h5>
@@ -69,10 +69,10 @@ export default {
             },
             {
                 id:4,
-                description:"Bootstrap-Portfolio",
+                description:"First Portfolio",
                 image:"https://i.postimg.cc/xCHJXbDT/Screenshot-20230112-112412.png",
-                github: "https://github.com/giftnkz6/portfolio.git",
-                netlify: "https://gift-portfolio.netlify.app"
+                github: "https://github.com/giftnkz6/vuePortfolio.git",
+                netlify: "https://vueportfolio2023.web.app"
             },
             {
                 id:5,
@@ -111,9 +111,6 @@ export default {
         background-color:#3C84AB;
     }
     .container{
-        /* display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: auto; */
         margin: auto;
     }
 
@@ -129,7 +126,6 @@ export default {
         margin-top: 2rem;
         margin-bottom: 5rem;
         gap: 1rem;
-        /* box-shadow: 0 0 25px purple; */
         background-color: #85CDFD;
     }
    
